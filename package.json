@@ -1,0 +1,27 @@
+{
+  "name": "hono-mostajs-orm-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hono + @mostajs/orm blog starter (SQLite WASM). Boots in the browser / Bolt.new / edge with no native binary.",
+  "license": "MIT",
+  "author": "Dr Hamid MADANI <drmdh@msn.com>",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.0",
+    "@mostajs/orm": "^2.5.1",
+    "hono": "^4.6.0",
+    "sql.js": "^1.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
