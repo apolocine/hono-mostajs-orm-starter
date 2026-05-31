@@ -7,7 +7,7 @@
   "author": "Dr Hamid MADANI <drmdh@msn.com>",
   "type": "module",
   "scripts": {
-    "dev": "node --import tsx --watch src/server.ts",
+    "dev": "node --import tsx src/server.ts",
     "start": "node --import tsx src/server.ts"
   },
   "engines": {
